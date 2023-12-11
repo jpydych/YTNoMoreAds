@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "No more YT ads",
+  "author": "Jan Pydych",
+  "version": "1.0",
+  "description": "No more YT ads",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.youtube.com/*"
+      ],
+      "js": [
+        "main.js"
+      ]
+    }
+  ]
+}
